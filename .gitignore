@@ -1,0 +1,15 @@
+# Ignore all jpg images, except `mosaic-web.jpg` and `sample.jpg`:
+*.jpg
+*.jpeg
+*.png
+
+# Ignore all folders, except `notebook-images`:
+*/*
+/*.*
+
+!notebook-images/*
+!*.py
+!*.ipynb
+!mosaic-web.jpg
+!sample.png
+!.gitignore
